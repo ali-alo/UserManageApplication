@@ -83,7 +83,7 @@ namespace UserManageApplication.Controllers
                 usersDto.Add(UserToUserDto(user));
                 checkBoxes.Add(new CheckBox { Id = user.Id });
             }
-            var model = new UsersReadEditDeleteModel { Users = usersDto, CheckBoxes = checkBoxes };
+            var model = new UsersReadEditDeleteModel { Users = usersDto, Operation = (Operation)int.MaxValue, CheckBoxes = checkBoxes };
             return model;
         }
 
