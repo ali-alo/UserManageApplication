@@ -22,6 +22,7 @@ This is a web application that allows users to register, authenticate, and manag
 - ASP.NET Core 6.0
 - Entity Framework Core 6.0
 - Bootstrap 5
+- SQL Server 2019
 
 ## Getting Started
 
@@ -31,6 +32,11 @@ To get started with this project, follow these steps:
 
    ```shell
    git clone https://github.com/ali-alo/UserManageApplication.git
+    ```
+
+2. Navigate to the project folder:
+    ```shell
+    cd UserManageApplication
     ```
 
 2. Install the required dependencies by running:
